@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: #b15b4f;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 380px;
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.hero {
+    background:#4a1608;
+    color: white;
+    padding: 40px 25px;
+    text-align: center;
+}
+.cup {
+    width: 160px;
+    margin-bottom: 20px;
+}
+.hero h2 {
+    font-size: 18px;
+    opacity: .8;
+}
+.hero h1 {
+    font-size: 64px;
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+.hero p {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: .9;
+}
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .3s;
+}
+.bottom {
+    background: #f6f2ee;
+    padding: 25px;
+    text-align: center;
+}
+.bottom img {
+    width: 75%;
+    max-width: 260px;
+    border-radius: 12px;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+.bottom p {
+    color: #444;
+    font-size: 14px;
+}
+
+.egift {
+    margin-top: 15px;
+    background: #006241;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    transition: .3s;
+}
+
+@media (max-width:600px){
+    body{
+        padding:15px;
+    }
+
+    .container{
+        width:100%;
+        border-radius:10px;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .hero p{
+        font-size:13px;
+    }
+
+    .cup{
+        width:130px;
+    }
+
+    .bottom img{
+        width:85%;
+    }
+}
